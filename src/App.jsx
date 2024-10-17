@@ -9,13 +9,24 @@ import NotFound from './components/NotFound';
 import { useParams } from 'react-router-dom';
 import BookCategories from './components/BookCategories';
 function App() {
+  //router defination
   const router = createBrowserRouter([
-    { path: "/", element: <HomePage /> },
+    { path: "/", element: <HomePage /> 
+
+    },
     { path: "/browse", element: <BrowseBooks /> },
-    { path: "/browse/:categoryid", element: <BookCategories /> },
-    { path: "/books/:bookId", element: <BookDetails /> },
-    { path: "/add-book", element: <AddBooks /> },
-    { path: "*", element: <NotFound /> },
+    { path: "/browse/:categoryid", element: <BookCategories /> 
+
+    },
+    { path: "/books/:bookId", element: <BookDetails /> 
+      
+    },
+    { path: "/add-book", element: <AddBooks /> 
+
+    },
+    { path: "*", element: <NotFound /> 
+      
+    },
   ]);
 
   return (
