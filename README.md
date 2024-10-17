@@ -12,8 +12,8 @@ type these commands in terminal
 # install these dependencies:
 "react-redux": "^9.1.2",
     "react-router-dom": "^6.27.0"
-    @reduxjs/toolkit": "^2.2.8",
-## commands for adding dependencies if needed(not required)
+    @reduxjs/toolkit": "^2.2.8"
+## commands for adding dependencies if needed(not required Already Installed)
 1. npm i react-redux
 2. npm i @reduxjs/toolkit
 3. npm i react-router-dom
