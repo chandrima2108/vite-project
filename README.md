@@ -13,7 +13,7 @@ type these commands in terminal
 "react-redux": "^9.1.2",
     "react-router-dom": "^6.27.0"
     @reduxjs/toolkit": "^2.2.8",
-# commands for adding dependencies
+## commands for adding dependencies
 1. npm i react-redux
 2. npm i @reduxjs/toolkit
 3. npm i react-router-dom
